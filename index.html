@@ -1,1 +1,223 @@
-Hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sell products in the beautiful Sumadija region of Serbia.">
+    <title>Stefan Markovic - Products from Sumadija</title>
+    <style>
+        /* Resetting some default styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header with background image */
+        header {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c6/Kosmaj1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            background-blur: 5px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.5em;
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #4d4d4d;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .product {
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+            border-radius: 8px;
+            width: 48%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+            color: #4CAF50; /* green tone */
+        }
+
+        .product p {
+            font-size: 1em;
+            color: #666;
+        }
+
+        .product-price {
+            font-size: 1.5em;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+
+        .contact-info h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4d4d4d;
+        }
+
+        .contact-info p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1em;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .product-list {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <h1>Stefan Markovic's Products from Sumadija</h1>
+    <p>Fresh, handmade, and local products from the heart of Serbia!</p>
+</header>
+
+<!-- Main content -->
+<div class="main-content">
+    <h2>Our Products</h2>
+    <div class="product-list">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://med-honey.com/wp-content/uploads/2018/04/med-1.jpg" alt="Product 1">
+            <h3>Homemade Honey</h3>
+            <p>A natural product from the heart of Sumadija, perfect for any occasion.</p>
+            <p class="product-price">€8.99</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://www.saveur.com/uploads/2022/08/26/HERO-How-To-Use-Up-Extra-Herbs-Before-They-Go-Bad-Saveur-06-scaled.jpg?auto=webp&width=2000&height=1334" alt="Product 2">
+            <h3>Organic Herbs</h3>
+            <p>Freshly picked herbs from our farm in the beautiful hills of Sumadija.</p>
+            <p class="product-price">€5.50</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://assets-eu-01.kc-usercontent.com/559bb7d3-88a4-01c1-79a3-dd4d5b2d2bb0/886dbd4a-41b2-4db8-bbf9-7c7f1df8a60e/1-Glitter-Jam-WEB.jpg" alt="Product 3">
+            <h3>Traditional Jam</h3>
+            <p>Made with the finest fruits from the region. Sweet and natural.</p>
+            <p class="product-price">€7.99</p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="https://i.ytimg.com/vi/h-TCdODfSCk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLATCc0y5OkPRaxcaEyhwYbSHehqxA" alt="Product 4">
+            <h3>Handmade Wooden Crafts</h3>
+            <p>Beautiful, handcrafted wooden items made by local artisans.</p>
+            <p class="product-price">€12.00</p>
+        </div>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <h2>Contact Stefan Markovic</h2>
+        <p>We are located in the scenic Sumadija region, around Arandjelovac, Serbia.</p>
+        <p>For inquiries or to place an order, you can reach Stefan at:</p>
+        <p>
+            <strong>Phone:</strong> <a href="tel:+381601234567">+381 60 123 4567</a>
+        </p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:stefan@example.com">stefan@example.com</a>
+        </p>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Stefan Markovic - All Rights Reserved</p>
+</footer>
+</body>
+</html>
